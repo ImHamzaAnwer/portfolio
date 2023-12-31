@@ -9,12 +9,12 @@ const HeroSection = () => {
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
-          initial={{ opacity: 0.5, scale: 0.5 }}
+          initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I'm{" "}
             </span>
@@ -36,7 +36,7 @@ const HeroSection = () => {
             />
           </h1>
 
-          <p className="text-[#ADB7DE] text-base sm:text-lg lg:text-xl mb-6">
+          <p className="w-full sm:w-2/3 text-[#ADB7DE] text-base mb-6 sm:text-lg lg:text-xl">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
           </p>
