@@ -57,10 +57,18 @@ const EmailSection = () => {
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="github.com">
-            <Image src={GithubIcon} alt="Github Icon" />
+            <Image
+              className="transition-colors rounded-full hover:bg-primary-900"
+              src={GithubIcon}
+              alt="Github Icon"
+            />
           </Link>
           <Link href="linkedin.com">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            <Image
+              className="transition-colors rounded-md hover:bg-primary-900"
+              src={LinkedinIcon}
+              alt="Linkedin Icon"
+            />
           </Link>
         </div>
       </div>
