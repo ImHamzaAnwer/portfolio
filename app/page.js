@@ -16,7 +16,7 @@ export default function Home() {
         <AboutSection />
         <ProjectsSection />
         <EmailSection />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </main>
   );
