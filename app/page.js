@@ -28,19 +28,25 @@ export default function Home() {
   return (
     <>
       <style jsx>{`
-        .custom-gradient-bg {
+        .content-container {
+          position: relative;
+          z-index: 1;
           background-image: radial-gradient(
-            600px at var(--x, 100px) var(--y, 100px),
+            600px at var(--x) var(--y),
             rgba(29, 78, 216, 0.15),
             transparent 80%
           );
+          background-attachment: fixed;
+          background-size: cover;
+          background-position: center;
+          min-height: 100vh;
         }
       `}</style>
-      <main
+      <div
         ref={heroRef}
-        className="custom-gradient-bg flex min-h-screen flex-col bg-slate-900"
+        className="content-container bg-slate-900 inset-0 transition duration-300"
       >
-        <div className="container mx-auto px-12 py-4">
+        <div className="container relative z-20 mx-auto px-12 py-4">
           <HeroSection />
           <AchievementsSection />
           <AboutSection />
@@ -48,7 +54,7 @@ export default function Home() {
           <EmailSection />
           {/* <Footer /> */}
         </div>
-      </main>
+      </div>
     </>
   );
 }
