@@ -36,8 +36,9 @@ const HeroSection = () => {
           </h1>
 
           <p className="w-full sm:w-2/3 text-[#ADB7DE] text-base mb-6 sm:text-lg lg:text-xl">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout.
+            I'm a front-end developer specializing in building exceptional
+            digital experiences. Currently, I'm focused on building accessible,
+            human-centered products at Plai.
           </p>
           <div>
             <Link href={"#contact"}>
@@ -55,7 +56,7 @@ const HeroSection = () => {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0.5, scale: 0.5 }}
+          initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
