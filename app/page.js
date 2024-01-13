@@ -32,9 +32,9 @@ export default function Home() {
           position: relative;
           z-index: 1;
           background-image: radial-gradient(
-            600px at var(--x) var(--y),
-            rgba(29, 78, 216, 0.15),
-            transparent 80%
+            600px at var(--x, 100px) var(--y, 100px),
+            rgba(29, 78, 216, 0.25),
+            transparent 90%
           );
           background-attachment: fixed;
           background-size: cover;
@@ -48,7 +48,7 @@ export default function Home() {
       >
         <div className="container relative z-20 mx-auto px-12 py-4">
           <HeroSection />
-          <AchievementsSection />
+          {/* <AchievementsSection /> */}
           <AboutSection />
           <ProjectsSection />
           <EmailSection />
