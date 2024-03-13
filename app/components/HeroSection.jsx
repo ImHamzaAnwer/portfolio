@@ -63,7 +63,7 @@ const HeroSection = () => {
         >
           <div className="sm:block hidden shadow-lg rounded-full relative  w-[230px] h-[230px] lg:w-[370px] lg:h-[370px]">
             <Image
-              src="/images/hero-image.jpeg"
+              src="images/hero-image.jpeg"
               alt="hero image"
               className="rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
