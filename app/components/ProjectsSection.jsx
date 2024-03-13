@@ -80,8 +80,8 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects py-8 px-4 sm:py-4 xl:px-16">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+    <section id="projects py-8 px-4 sm:py-16 xl:px-16">
+      <h2 className="text-center text-4xl font-bold text-white mt-32 mb-8 md:mb-12">
         My Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
