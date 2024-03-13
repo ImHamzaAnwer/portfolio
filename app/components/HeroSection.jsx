@@ -17,7 +17,7 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-primary-400">
-              Hello, I'm Hamza{" "}
+              Hello, I&apos;m Hamza{" "}
             </span>
             <br />
             <TypeAnimation
@@ -36,9 +36,9 @@ const HeroSection = () => {
           </h1>
 
           <p className="w-full sm:w-2/3 text-[#ADB7DE] text-base mb-6 sm:text-lg lg:text-xl">
-            I'm a front-end developer specializing in building exceptional
-            digital experiences. Currently, I'm focused on building accessible,
-            human-centered products at Plai.
+            I&apos;m a front-end developer specializing in building exceptional
+            digital experiences. Currently, I&apos;m focused on building
+            accessible, human-centered products at Plai.
           </p>
           <div>
             <Link href={"#contact"}>
