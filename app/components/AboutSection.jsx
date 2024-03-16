@@ -35,16 +35,13 @@ const TAB_DATA = [
               <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
             </svg>
           </span>
-          <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 class="flex items-center mb-1 text-lg font-semibold text-white">
             Senior Front end developer at Plai{" "}
-            <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
-              Present
-            </span>
           </h3>
-          <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+          <time class="block mb-2 text-sm font-normal leading-none text-gray-300">
             December 2021 - Present
           </time>
-          <p class="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
+          <p class="mb-4 text-sm font-normal text-gray-400">
             In my current position, I am actively contributing to the creation
             of a centralized hub for advertisers, streamlining their digital
             marketing efforts. This involves providing a comprehensive solution
@@ -66,13 +63,13 @@ const TAB_DATA = [
               <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
             </svg>
           </span>
-          <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 class="flex items-center mb-1 text-lg font-semibold text-white">
             Freelancer at Fiverr
           </h3>
-          <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+          <time class="block mb-2 text-sm font-normal leading-none text-gray-300">
             May 2017 - Present
           </time>
-          <p class="text-sm font-normal text-gray-500 dark:text-gray-400">
+          <p class="text-sm font-normal text-gray-400">
             As an experienced freelance React Developer on Fiverr for over 6
             years, I specialize in creating bespoke web and mobile applications
             using React, React Native and Next JS. Throughout these years,
@@ -80,16 +77,15 @@ const TAB_DATA = [
             solutions that meet the unique requirements of each client.
           </p>
 
-          <Link
-            target="_blank"
-            href="https://www.fiverr.com/hamzaanwer"
-            className="bg-green-600 hover:bg-green-700 text-white text-xs mt-4 py-1.5 px-5 rounded-lg transition-all"
+          <span
+            onClick={() => window.open("https://www.fiverr.com/hamzaanwer")}
+            className="cursor-pointer inline-block bg-green-600 hover:bg-green-700 text-white text-xs mt-2 py-1.5 px-5 rounded-md transition-all"
           >
             Visit Profile
-          </Link>
+          </span>
         </li>
         <li class="ms-6">
-          <span class="absolute flex items-center justify-center w-6 h-6 bg-secondary-900 rounded-full -start-3 ring-8  dark:ring-gray-900">
+          <span class="absolute flex items-center justify-center w-6 h-6 bg-secondary-900 rounded-full -start-3 ring-8 ring-gray-900">
             <svg
               class="w-2.5 h-2.5"
               aria-hidden="true"
@@ -100,13 +96,13 @@ const TAB_DATA = [
               <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
             </svg>
           </span>
-          <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 class="flex items-center mb-1 text-lg font-semibold text-white">
             React Native Developer at Secomind.AI
           </h3>
-          <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+          <time class="block mb-2 text-sm font-normal leading-none text-gray-300">
             November 2019 - December 2021
           </time>
-          <p class="text-sm font-normal text-gray-500 dark:text-gray-400">
+          <p class="text-sm font-normal text-gray-400">
             Successfully delivered a robust React Native mobile application that
             contributed to the overall success of the Smart Windows project.
             Played a vital role in bridging the gap between artificial
