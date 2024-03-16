@@ -6,9 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const EmailSection = () => {
-  const [emailSubmitted, setEmailSubmitted] = useState(false);
   const [emailData, setEmailData] = useState({
-    email: "",
     subject: "",
     message: "",
   });
@@ -23,7 +21,7 @@ const EmailSection = () => {
 
   const subject = encodeURIComponent(emailData.subject);
   const message = encodeURIComponent(emailData.message);
-  const mailtoLink = `mailto:${emailData.email}?subject=${subject}&body=${message}`;
+  const mailtoLink = `mailto:${"hamza.anwer8@gmail.com"}?subject=${subject}&body=${message}`;
 
   return (
     <section
@@ -35,10 +33,9 @@ const EmailSection = () => {
           Let&apos;s Connect
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          {" "}
-          I&apos;m currently looking for new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I&apos;ll
-          try my best to get back to you!
+          Whether it&apos;s about potential collaborations, opportunities, or
+          just a friendly chat, feel free to reach out. Let&apos;s connect and
+          bring our ideas to life.
         </p>
         <div className="socials flex flex-row gap-2">
           <Link target="_blank" href="https://www.github.com/imhamzaanwer">
@@ -58,23 +55,6 @@ const EmailSection = () => {
         </div>
       </div>
       <div className="flex flex-col">
-        <div className="mb-6">
-          <label
-            htmlFor="email"
-            className="text-white block mb-2 text-sm font-medium"
-          >
-            Your email
-          </label>
-          <input
-            name="email"
-            type="email"
-            id="email"
-            required
-            onChange={handleInputChange}
-            className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-            placeholder="hamza.anwer8@gmail.com"
-          />
-        </div>
         <div className="mb-6">
           <label
             htmlFor="subject"
