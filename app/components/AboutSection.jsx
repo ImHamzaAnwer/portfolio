@@ -15,6 +15,9 @@ const TAB_DATA = [
         <Chip title={"Next JS"} />
         <Chip title={"React"} />
         <Chip title={"React Native"} />
+        <Chip title={"Tailwind"} />
+        <Chip title={"Material UI"} />
+        <Chip title={"Redux"} />
       </div>
     ),
   },

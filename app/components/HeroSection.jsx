@@ -38,9 +38,8 @@ const HeroSection = () => {
           </h1>
 
           <p className="w-full sm:w-2/3 text-[#ADB7DE] text-base mb-6 sm:text-lg lg:text-xl">
-            I&apos;m a front-end developer specializing in building exceptional
-            digital experiences. Currently, I&apos;m focused on building
-            accessible, human-centered products at Plai.
+            A front-end software developer focused on building beautiful
+            interfaces & experiences
           </p>
           <div>
             <Link href={"#contact"}>
