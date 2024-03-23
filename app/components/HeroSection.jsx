@@ -27,8 +27,6 @@ const HeroSection = () => {
                 1000,
                 "Mobile developer",
                 1000,
-                "Front-End Developer",
-                1000,
               ]}
               wrapper="span"
               speed={50}
@@ -50,7 +48,7 @@ const HeroSection = () => {
             <Link target="_blank" href="/hamza_cv.pdf" download="cv">
               <button className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-400 to-secondary-600 hover:bg-slate-800 text-white mt-3">
                 <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                  Download CV
+                  My Resume
                 </span>
               </button>
             </Link>
@@ -62,10 +60,10 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="sm:block hidden shadow-lg rounded-full relative  w-[230px] h-[230px] lg:w-[370px] lg:h-[370px]">
+          <div className="sm:block hidden shadow-sm rounded-full relative  w-[230px] h-[230px] lg:w-[370px] lg:h-[370px]">
             <Image
               src="images/hero-image.jpeg"
-              alt="hero image"
+              alt="profile image"
               className="rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
               height={300}

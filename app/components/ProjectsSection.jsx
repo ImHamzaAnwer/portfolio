@@ -34,8 +34,8 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "Food Recipe Application",
+    description: "Search food recipe using mealdb API",
     image: "images/projects/4.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
